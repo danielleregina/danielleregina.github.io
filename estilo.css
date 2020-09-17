@@ -1,0 +1,341 @@
+html, body{
+    margin:0;
+    padding: 0%;
+}
+
+header{
+    background-color: rgb(255, 177, 32);
+    color:grey;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo{
+    width: 8.8%;
+    height: 82%;
+    position: absolute;
+    margin-left: 5%;
+    padding-top: 5px;
+    display: block;
+}
+
+#menu{
+    float: right;
+    margin-right: 5%;
+    margin-top: 0px;
+    list-style: none;
+}
+li{
+    float: left;
+    color: #422b00;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10%;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+li:hover{
+    background-color: rgb(247, 201, 117);
+    color: #422b00;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-top: 8px;
+}
+.cormenu{
+    color: #422b00;
+    text-decoration: none;
+    font-weight: bold;
+}
+.cormenu:hover{
+    color: lightgoldenrodyellow;
+}
+
+#imagem {
+    background: url(o-foguete-de-brinquedo-decola-dos-livros-que-vomitam-o-fumo-em-um-fundo-branco-simbolo-do-desejo-de-educacao-e-conhecimento-ilustracao-da-escola-renderizacao-em-3d_187882-1008_illustration_x4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        text-align: center;
+}
+#ação{
+    color:  #422b00;
+    border: 2px #422b00 solid;
+    padding: 10px;
+    border-radius: 5%;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: auto;
+    padding-top: auto;
+    text-align: right;
+    margin-left: 33%;
+}
+#ação:hover{
+    background-color: lightgoldenrodyellow;
+    border-radius: 5%;
+    color: orange;
+}
+#titulodapagina1 {
+    color: #422b00;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-top: 12%;
+    padding-left: 35%;
+    padding-bottom: 0%;
+    font-size: 35pt;
+    margin-bottom: 0%;
+}
+
+#titulodapagina2 {
+    color: #422b00;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-left: 35%;
+    font-size: 13pt; 
+}
+
+#titulodapagina3 {
+    color: #422b00;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-top: 1.5%;
+    padding-left: 35%;
+    font-size: 11pt; 
+}
+#titulodapagina4 {
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-left: 32%;
+    font-size: 20pt;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#projeto{
+    padding: 40px;
+    background-color:white;
+    margin: 0;
+    color:  #422b00;
+}
+.video{
+    border:10px;
+    display: block;
+}
+.ods4{
+    text-align: center;
+    padding-left: 25%;
+    color: #422b00;
+}
+
+#subtitulo1{
+    font-size: 26pt;
+    font-style: italic;
+    color: #422b00
+}
+#subsubtitulo1{
+    font-style: italic;
+    color:  black;
+}
+#subtitulo2{
+    font-style: italic;
+    font-size: 23pt;
+    color:  #422b00;
+}
+#subsubtitulo3{
+    font-style: italic;
+    color:  black;
+}
+
+#ações{
+    background-color: rgb(255, 252, 89);
+    color: #422b00;
+}
+
+.icones{
+    width: 80px;
+}
+
+#educadores{
+    background-color:white;
+    color: #422b00;
+}
+
+.coluna1{
+    float: right;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+    color: black;
+}
+#texto1{
+    color: black;
+}
+.coluna2{
+    float: center;
+    padding: 0 5%;
+    position: relative;
+    width: 35%;
+    color: black;
+}
+.coluna3{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 23%;
+    color: black;
+}
+.coluna4{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 23%;
+    color: black;
+}
+.coluna5{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 23%;
+    color: black;
+}
+.coluna6{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 15%;
+    color: black;
+}
+.coluna7{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 15%;
+    color: black;
+}
+.coluna8{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 15%;
+    color: black;
+}
+.coluna9{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 15%;
+    color: black;
+}
+
+#sobre{
+    padding: 1px;
+    background-color: rgb(255, 253, 107);
+    color:  #422b00;
+}
+#proposito{
+    font-size: 18pt;
+    font-style: italic;
+    color: #422b00;
+}
+.minhafoto{
+    width: 26%;
+    border-radius: 100%;
+}
+#eu{
+    color: black;
+}
+.icones2{
+    width: 5%;
+    color: black;
+}
+#microsoft{
+    font-size: 12pt;
+    font-style: italic;
+    color:  #422b00;
+}
+#insta{
+    padding: 0 5%;
+    position: relative;
+    width: 1.4%;
+    height: 2.8%;
+    padding-right: 14px;
+    font-style: italic;
+    color:  black;
+}
+#gmail{
+    padding: 0 5%;
+    margin-right: 5px;
+    position: relative;
+    width: 1.4%;
+    height: 2.8%;
+    padding-right: 13px;
+    font-style: italic;
+    color:  black;
+}
+#legenda{
+    font-style: italic;
+    text-align: center;
+    font-size: 12pt;
+    color:  black;
+    font-weight: bold;
+}
+#legenda2{
+    font-style: italic;
+    text-align: center;
+    font-size: 11pt;
+    color:  black;
+}
+section{
+    padding: 20px;
+    float: left;
+}
+.centralizado{
+    text-align: center;
+}
+.justificado{
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+footer{
+    background-color: rgb(255, 171, 15);
+    font-size: 11pt;
+    float: left;
+    font-style: italic;
+}
+
+@media all and (max-width: 768px){
+    .coluna1, .coluna2, .coluna3, .coluna4, .coluna5, .coluna6, .coluna7, .coluna8, .coluna9{
+        display:block;
+        width: 100%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+}
+    .video{
+        display: block;
+}
+    #titulodapagina4{
+        visibility: hidden;
+}
+    #titulodapagina1{
+    padding-top: 20%;
+    padding-right: 10%;
+}
+    #titulodapagina, #titulodapagina2, #titulodapagina3{
+    visibility: hidden;
+}
+    #menu{
+        visibility: hidden;
+}
+    #logo{
+    visibility: hidden;
+}
